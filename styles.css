@@ -1,7 +1,54 @@
+
 body {
     font-family: 'Nunito', system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial;
     margin: 0;
     background: #F3B6C4;
+}
+/* WELCOME OVERLAY */
+#welcomeOverlay {
+    position: fixed;
+    inset: 0;
+    background: rgba(255, 182, 193, 0.7);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 999;
+}
+
+#welcomeBox {
+    background: #fff0f5;
+    padding: 30px;
+    border-radius: 20px;
+    text-align: center;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+    width: 300px;
+}
+
+#welcomeBox input {
+    width: 100%;
+    padding: 8px;
+    margin: 10px 0;
+    border-radius: 10px;
+    border: 1px solid #E75480;
+    text-align: center;
+}
+
+#welcomeBox button {
+    background: #E75480;
+    color: white;
+    border: none;
+    padding: 8px 15px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+h2{
+    font-family: 'Dancing Script', cursive;
+    font-size: 3rem;
+    color: #6f1d46;
+    text-align: center;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
 }
 
 #userHearts, #computerHearts {
@@ -90,3 +137,5 @@ body {
 }
 
 .how-panel.open .close-btn { display: block; }
+
+
